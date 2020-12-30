@@ -1,6 +1,8 @@
 schema-version: 1.0
 name: ubuntu
 
+type: provider
+
 system:
   user: ubuntu
   container: "{% piper.name %}:{% piper.version %}"
